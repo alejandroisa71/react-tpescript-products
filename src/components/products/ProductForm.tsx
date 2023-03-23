@@ -1,10 +1,8 @@
 import React, { useState, useRef } from "react";
+import { IProduct } from "../../interface/Product";
 
 type FormElement = React.FormEvent<HTMLFormElement>;
-interface IProduct {
-  name: string;
-  active: boolean;
-}
+
 
 export const ProductForm = () => {
   const [newProduct, setNewProduct] = useState<string>("");
