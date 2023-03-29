@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ProductForm } from './components/products/ProductForm'
+import { Product } from './products/Product'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <ProductForm/>
+      <Product/>
     </div>
   )
 }

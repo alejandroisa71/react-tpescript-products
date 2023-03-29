@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { IProduct } from "../../interface/Product";
+import { IProduct } from "../interface/Product";
 import { ProductList } from "./ProductList";
 
 type FormElement = React.FormEvent<HTMLFormElement>;
