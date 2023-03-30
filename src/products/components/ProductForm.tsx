@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { IProduct } from "../interface/Product";
+import { IProduct } from "../interfaces/Product";
 import { ProductList } from "./ProductList";
 
 type FormElement = React.FormEvent<HTMLFormElement>;
@@ -54,7 +54,7 @@ export const ProductForm = () => {
             </div>
           </div>
           <ProductList />
-          {products.map((p: IProduct, i: number) => (
+          {/* {products.map((p: IProduct, i: number) => (
             <div className="card card-body mt-2" key={i}>
               <h1 style={{ textDecoration: p.active ? "line-through" : "" }}>
                 {p.name}
@@ -74,7 +74,7 @@ export const ProductForm = () => {
                 </button>
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
